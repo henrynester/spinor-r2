@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "aa_library")(type "KiCad")(uri "${KIPRJMOD}/aa_library/aa_library.kicad_sym")(options "")(descr ""))
+  (lib (name "hn_lib")(type "KiCad")(uri "${KIPRJMOD}/hn_lib/hn_lib.kicad_sym")(options "")(descr ""))
+)

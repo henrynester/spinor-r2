@@ -1,0 +1,148 @@
+(footprint "hn_XTAL"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SMD2520/4, Crystal, 2.5x2.0mm package, SMD, generated with kicad-footprint-generator make_crystal.py, http://www.newxtal.com/UploadFiles/Images/2012-11-12-09-29-09-776.pdf")
+	(property "Reference" "REF**"
+		(at 0 -2.2 0)
+		(layer "F.SilkS")
+		(uuid "4b764ac2-9788-4f9a-82fc-b2d7e8e86fbb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "hn_XTAL"
+		(at 0 2.2 0)
+		(layer "F.Fab")
+		(uuid "7a3a4b23-1c84-4351-84b6-624ef31ff4a8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "949a3da6-e909-4751-859c-55409c7ca612")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8b1992db-6f7b-40ce-b1ce-094deb71c05b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.71 -1.46)
+		(end -1.71 1.46)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "251defd4-c96d-4b20-85ca-35338b2ee3b2")
+	)
+	(fp_line
+		(start -1.71 1.46)
+		(end 1.71 1.46)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "62104699-2a4f-40b3-8d32-3168ded060da")
+	)
+	(fp_rect
+		(start -1.75 -1.5)
+		(end 1.75 1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "912330f6-6eab-47c1-896e-93499c944e61")
+	)
+	(fp_poly
+		(pts
+			(xy -1.25 -1) (xy -1.25 0.5) (xy -0.75 1) (xy 1.25 1) (xy 1.25 -1)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "4671932c-dc6f-48b4-8f0c-c565dd47e414")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "7f7bf443-b159-40c6-a510-86574e231de7")
+		(effects
+			(font
+				(size 0.62 0.62)
+				(thickness 0.09)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.875 0.7)
+		(size 1.15 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "65bf6f90-e572-450d-b6bd-b5aded39708c")
+	)
+	(pad "2" smd roundrect
+		(at 0.875 0.7)
+		(size 1.15 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "3e5fa296-e443-4a68-894d-5de57c8f11c8")
+	)
+	(pad "3" smd roundrect
+		(at 0.875 -0.7)
+		(size 1.15 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "8dac3a1f-8b99-451a-ac50-5ccefd058217")
+	)
+	(pad "4" smd roundrect
+		(at -0.875 -0.7)
+		(size 1.15 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "ac3e68d6-8160-4c02-9595-f55272d8295c")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/hn_lib/3dmodels/hn_xtal.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
