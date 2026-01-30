@@ -1742,6 +1742,12 @@
 		(uuid "c07427b3-73e3-4208-93cb-04e2d72923ac")
 	)
 	(junction
+		(at 48.26 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "014a4914-de19-474d-89b5-8d6aa87b58e8")
+	)
+	(junction
 		(at 86.36 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1752,12 +1758,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "183f1661-c282-42d5-9bbd-67e3ec97c850")
-	)
-	(junction
-		(at 104.14 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1eea8085-ca36-4ba1-8c35-c7f094461df6")
 	)
 	(junction
 		(at 71.12 148.59)
@@ -1772,12 +1772,6 @@
 		(uuid "373ed35d-372f-4a65-8599-a6ce855d8629")
 	)
 	(junction
-		(at 48.26 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "39f332d0-9f06-46c5-87ce-53b50771822f")
-	)
-	(junction
 		(at 165.1 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1788,12 +1782,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5fbbd3e4-eb63-4873-8410-e7342a01a047")
-	)
-	(junction
-		(at 104.14 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6f48e88f-8d1a-40cb-8134-2c2ada6a2d77")
 	)
 	(junction
 		(at 214.63 60.96)
@@ -1917,16 +1905,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 50.8) (xy 50.8 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0591a70b-6ef6-4568-aac9-095a5a2b8099")
-	)
-	(wire
-		(pts
 			(xy 67.31 58.42) (xy 86.36 58.42)
 		)
 		(stroke
@@ -1954,16 +1932,6 @@
 			(type default)
 		)
 		(uuid "0e91faac-e8d6-46d3-aecd-f29ac43cc6d7")
-	)
-	(wire
-		(pts
-			(xy 86.36 40.64) (xy 104.14 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11948956-59ea-4a1e-850a-aaaef7e9538e")
 	)
 	(wire
 		(pts
@@ -2047,6 +2015,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 55.88) (xy 45.72 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a754ee7-bccd-48c0-b8c5-c37680e31565")
+	)
+	(wire
+		(pts
 			(xy 67.31 40.64) (xy 86.36 40.64)
 		)
 		(stroke
@@ -2074,26 +2052,6 @@
 			(type default)
 		)
 		(uuid "3fb4d5a0-c153-431d-8971-5a1729b5ea8a")
-	)
-	(wire
-		(pts
-			(xy 53.34 53.34) (xy 48.26 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4452855d-0f26-4980-a1fc-e4c73a838a44")
-	)
-	(wire
-		(pts
-			(xy 121.92 58.42) (xy 104.14 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46a57bdd-bbed-4c4b-a597-24bd82d45f4f")
 	)
 	(wire
 		(pts
@@ -2134,6 +2092,16 @@
 			(type default)
 		)
 		(uuid "54b130cf-b6cc-431a-980a-beda81617981")
+	)
+	(wire
+		(pts
+			(xy 50.8 40.64) (xy 50.8 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54c9ab18-d14f-415c-a4ea-0e4cea6615ef")
 	)
 	(wire
 		(pts
@@ -2217,33 +2185,13 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 43.18) (xy 45.72 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72c02a9c-bfc4-4810-99fb-5658566b8cb4")
-	)
-	(wire
-		(pts
-			(xy 104.14 58.42) (xy 86.36 58.42)
+			(xy 86.36 58.42) (xy 121.92 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "73a8ab85-8e99-42d5-b899-2b6e6379c7e0")
-	)
-	(wire
-		(pts
-			(xy 50.8 50.8) (xy 50.8 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7850ba7f-e46b-4fbe-be27-cd989c428c9f")
 	)
 	(wire
 		(pts
@@ -2347,7 +2295,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 40.64) (xy 121.92 40.64)
+			(xy 86.36 40.64) (xy 121.92 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2377,7 +2325,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 43.18) (xy 48.26 43.18)
+			(xy 45.72 43.18) (xy 48.26 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2394,6 +2342,16 @@
 			(type default)
 		)
 		(uuid "aa9d70c4-5870-43b3-b437-28fa57f8e031")
+	)
+	(wire
+		(pts
+			(xy 45.72 53.34) (xy 50.8 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaf37f83-3d8f-402d-aa33-aa6748788731")
 	)
 	(wire
 		(pts
@@ -2487,16 +2445,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 53.34) (xy 104.14 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd67062b-69ca-4623-87c3-9e3a32727e7e")
-	)
-	(wire
-		(pts
 			(xy 214.63 58.42) (xy 214.63 60.96)
 		)
 		(stroke
@@ -2504,6 +2452,16 @@
 			(type default)
 		)
 		(uuid "d2df498c-a967-4b4c-aab9-7c3db8e8e38a")
+	)
+	(wire
+		(pts
+			(xy 48.26 43.18) (xy 60.96 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4eb3539-eeb0-4718-9dc3-ab37334aa198")
 	)
 	(wire
 		(pts
@@ -2547,16 +2505,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 53.34) (xy 48.26 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e430dfce-d1e9-47fb-8757-60ca6d0f25a8")
-	)
-	(wire
-		(pts
 			(xy 121.92 58.42) (xy 128.27 58.42)
 		)
 		(stroke
@@ -2584,6 +2532,16 @@
 			(type default)
 		)
 		(uuid "e9e0e92e-d6b1-4d60-bbd3-5ae9a1e8054c")
+	)
+	(wire
+		(pts
+			(xy 48.26 43.18) (xy 48.26 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebd7af9e-48af-47e0-8326-c408bf10f142")
 	)
 	(wire
 		(pts
@@ -2624,16 +2582,6 @@
 			(type default)
 		)
 		(uuid "f4ab137b-2200-42fe-8a9c-c3f871094339")
-	)
-	(wire
-		(pts
-			(xy 104.14 45.72) (xy 104.14 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb27e45d-5781-43e5-81a8-cd71e75753ec")
 	)
 	(wire
 		(pts
@@ -2956,6 +2904,84 @@
 			(project "spinor-r2a"
 				(path "/c8b2ce32-1e5b-45e4-8f0b-d70c39b97a8d/fc1e53d0-a8df-47e2-96b1-1922b9156006"
 					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 40.64 55.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0ac333c1-7ac1-4714-9de0-35d14d5336e5")
+		(property "Reference" "J9"
+			(at 42.672 61.976 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 42.672 59.436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "hn_lib:hn_AMASS_XT30PW-M"
+			(at 40.64 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 40.64 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "part" "Amass XT30-PW-M"
+			(at 40.64 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8fc9797b-49ae-49fa-85a9-6630e361b1f2")
+		)
+		(pin "1"
+			(uuid "e7d97e53-78ad-4207-8fc7-bc4e01d0cc60")
+		)
+		(instances
+			(project "spinor-r2a"
+				(path "/c8b2ce32-1e5b-45e4-8f0b-d70c39b97a8d/fc1e53d0-a8df-47e2-96b1-1922b9156006"
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -3557,7 +3583,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4bf10e9e-bd11-407b-9424-30c23aec43d2")
-		(property "Reference" "L3"
+		(property "Reference" "L2"
 			(at 49.53 118.11 90)
 			(effects
 				(font
@@ -3618,86 +3644,7 @@
 		(instances
 			(project "spinor-r2a"
 				(path "/c8b2ce32-1e5b-45e4-8f0b-d70c39b97a8d/fc1e53d0-a8df-47e2-96b1-1922b9156006"
-					(reference "L3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 104.14 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5319752e-47e2-460c-8db2-f5c363db9d11")
-		(property "Reference" "C37"
-			(at 107.95 47.3709 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100uF/63V"
-			(at 107.95 49.9109 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "hn_lib:hn_C_Kemet_A768MS"
-			(at 105.1052 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_A4088_A768"
-			(at 104.14 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 104.14 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "part" "Kemet A768MS107M1JLAE027"
-			(at 104.14 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f4b53830-75df-4aec-99f0-10e08aa355ed")
-		)
-		(pin "1"
-			(uuid "97875797-9ce8-4b54-a571-2c1f64620e7a")
-		)
-		(instances
-			(project "spinor-r2a"
-				(path "/c8b2ce32-1e5b-45e4-8f0b-d70c39b97a8d/fc1e53d0-a8df-47e2-96b1-1922b9156006"
-					(reference "C37")
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -3791,7 +3738,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "736d7ecf-e01f-493f-8190-202b16dadc4c")
-		(property "Reference" "L1"
+		(property "Reference" "L3"
 			(at 187.96 118.11 90)
 			(effects
 				(font
@@ -3851,7 +3798,7 @@
 		(instances
 			(project "spinor-r2a"
 				(path "/c8b2ce32-1e5b-45e4-8f0b-d70c39b97a8d/fc1e53d0-a8df-47e2-96b1-1922b9156006"
-					(reference "L1")
+					(reference "L3")
 					(unit 1)
 				)
 			)
@@ -4376,85 +4323,6 @@
 			(project "spinor-r2a"
 				(path "/c8b2ce32-1e5b-45e4-8f0b-d70c39b97a8d/fc1e53d0-a8df-47e2-96b1-1922b9156006"
 					(reference "C44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 58.42 53.34 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e5877a1e-73c6-4f1a-9c0a-a72e0485b972")
-		(property "Reference" "J9"
-			(at 59.944 59.436 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "~"
-			(at 59.944 56.896 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "hn_lib:hn_AMASS_XT30PW-F"
-			(at 58.42 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 58.42 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 58.42 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "part" "Amass XT30-PW-F"
-			(at 58.42 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e2d1daa2-c174-4f6c-8542-399bbfc22c96")
-		)
-		(pin "1"
-			(uuid "75805b1a-e244-4079-b016-875b179a61e2")
-		)
-		(instances
-			(project "spinor-r2a"
-				(path "/c8b2ce32-1e5b-45e4-8f0b-d70c39b97a8d/fc1e53d0-a8df-47e2-96b1-1922b9156006"
-					(reference "J9")
 					(unit 1)
 				)
 			)

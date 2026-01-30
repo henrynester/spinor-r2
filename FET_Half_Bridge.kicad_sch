@@ -1699,6 +1699,26 @@
 		)
 		(uuid "1594eea7-c661-461e-877c-67e43e5aa905")
 	)
+	(label "GATE_L_RAW"
+		(at 125.73 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a78a2c92-a310-413d-809a-2ee9aabbf5ff")
+	)
+	(label "GATE_H_RAW"
+		(at 125.73 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eddd5d09-d86c-4f18-8e55-42612cc2f236")
+	)
 	(global_label "VBUS"
 		(shape input)
 		(at 143.51 53.34 180)
