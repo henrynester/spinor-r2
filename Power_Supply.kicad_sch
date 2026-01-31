@@ -1718,16 +1718,6 @@
 		)
 		(uuid "4016fb30-361a-4202-a58d-ba0cc6487d1c")
 	)
-	(text "EN pin thresholds: rising 1.23V, falling 1.1V\n470k upper 100k lower leads to 7V turn-on and 6.3 turn-off thresholds"
-		(exclude_from_sim no)
-		(at 359.664 87.376 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4f3bc498-3af2-486b-a408-4aedae2b3e40")
-	)
 	(text "Follow datasheet 9.2.2 Detailed design procedure\n\ninductor selection\n\nLmin = (Vin,max - Vout) / (Iout,min * Kind) * Vout / (Vin,max * fsw)\nfsw = 1.1MHz (fixed for this part)\nVout = 3.3V\nVin,max = 25.2V\nKind = 20-60% (use 0.6)\nIout,min = 150mA (use max or answer is unreasonably large)\n=> Lmin = 43.5uH => use 47uH\ninductor needs to handle 150mA load + 50mA ripple.\nChoose ~500mA rating, saturation a bit higher.\n\nDelta I_L = Vout * (Vin,max-Vout)/(Vin,max * L * f_sw) = 55mA\n\noutput capacitor selection\nESR ripple = Delta I_L * ESR = 55mA * = \nCharging ripple = Delta I_L / (8*f_sw * C_out) = 0.6mV\nLoad step stability: require\nC_out > 4 * (load step) / (f_sw * Delta V_out) = 2uF\nfor load step = 150mA, Delta V_out = 250mV\n\ninput capacitor\n2.2uF/50V Low ESR\n\nbootstrap cap\n100nF/16V\n\n"
 		(exclude_from_sim no)
 		(at 324.104 12.954 0)
@@ -1739,7 +1729,7 @@
 		)
 		(uuid "53a1ba2b-79e0-4cc5-b205-aa91c7af8613")
 	)
-	(text "EN pin tied to Vin. UVLO at 3.45V\nin event of power cut during motor spin:\nMCU fw detects low Vin and switches on all 3 low-side FETs\nif Vin keeps falling, it will hit 8V UVLO of DRV chip\nwhich disables all FETs. hopefully motor has by then stopped spinning.\nif not, body diodes can take the heat.\nat Vin ~5V, fw is set up to halt.\nbrownout detector is also used to induce a reset in glitchy cases."
+	(text "EN pin tied to Vin. UVLO at 3.45V\nin event of power cut during motor spin:\nMCU fw detects low Vin and switches on all 3 low-side FETs\nif Vin keeps falling, it will hit 8V UVLO of DRV chip\nwhich disables all FETs. hopefully motor has by then stopped spinning.\nif not, body diodes can take the heat.\nat Vin ~5V, fw is set up to halt.\nbrownout detector is also used to induce a reset in glitchy cases.\nat 3.45V, regulator shuts off"
 		(exclude_from_sim no)
 		(at 356.108 74.93 0)
 		(effects
@@ -1798,12 +1788,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "183f1661-c282-42d5-9bbd-67e3ec97c850")
-	)
-	(junction
-		(at 71.12 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "24042c33-b073-48db-ba93-e60deb547db4")
 	)
 	(junction
 		(at 176.53 166.37)
@@ -1900,12 +1884,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "76cb967b-677c-4f0f-8b11-5153ecda34e3")
-	)
-	(junction
-		(at 38.1 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "789dc36a-7177-480b-bd30-89f48214e3ff")
 	)
 	(junction
 		(at 224.79 48.26)
@@ -2501,16 +2479,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 123.19) (xy 38.1 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59ab5292-5003-459d-9e63-544e2f53ce4e")
-	)
-	(wire
-		(pts
 			(xy 87.63 123.19) (xy 116.84 123.19)
 		)
 		(stroke
@@ -2771,16 +2739,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 148.59) (xy 71.12 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87717a7c-5c10-400f-9afb-f18ac229ab61")
-	)
-	(wire
-		(pts
 			(xy 86.36 40.64) (xy 86.36 45.72)
 		)
 		(stroke
@@ -2788,16 +2746,6 @@
 			(type default)
 		)
 		(uuid "883d0512-6f36-42ac-946f-317dc60996f4")
-	)
-	(wire
-		(pts
-			(xy 53.34 123.19) (xy 71.12 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8974a97b-309a-4824-9824-61b36d078225")
 	)
 	(wire
 		(pts
@@ -2931,7 +2879,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 123.19) (xy 38.1 123.19)
+			(xy 27.94 123.19) (xy 71.12 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3078,16 +3026,6 @@
 			(type default)
 		)
 		(uuid "cb2ec2a4-436f-4c32-a104-7cdaa3ab0126")
-	)
-	(wire
-		(pts
-			(xy 38.1 138.43) (xy 38.1 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb3f0dc6-ca14-4a73-84b0-8078418ad7db")
 	)
 	(wire
 		(pts
@@ -3381,16 +3319,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 123.19) (xy 45.72 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4ab137b-2200-42fe-8a9c-c3f871094339")
-	)
-	(wire
-		(pts
 			(xy 81.28 179.07) (xy 64.77 179.07)
 		)
 		(stroke
@@ -3408,6 +3336,26 @@
 			(type default)
 		)
 		(uuid "fb8108e0-f1aa-4c69-aeb0-f1466fc2ae00")
+	)
+	(label "VBUS_FILT"
+		(at 64.77 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "13430213-1847-4589-9cf4-eaac260664c1")
+	)
+	(label "3V3_BUCK_CP"
+		(at 171.45 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b120dcf9-b8b1-4f21-b02e-455c91873d52")
 	)
 	(label "3V3_BUCK_SW"
 		(at 170.18 123.19 0)
@@ -4499,85 +4447,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 38.1 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2af44b00-a208-452d-a9bc-a37158a89035")
-		(property "Reference" "C35"
-			(at 41.91 133.3499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF/50V"
-			(at 41.91 135.8899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "hn_lib:hn_C_0603"
-			(at 39.0652 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 38.1 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 38.1 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "part" "Murata GCJ188R71H104KA12D"
-			(at 38.1 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1a0c6bd8-7d8b-431c-b33f-6c3b2b2c56b5")
-		)
-		(pin "1"
-			(uuid "5255a038-b6f1-427a-90ea-868e383e8e49")
-		)
-		(instances
-			(project "spinor-r2a"
-				(path "/c8b2ce32-1e5b-45e4-8f0b-d70c39b97a8d/fc1e53d0-a8df-47e2-96b1-1922b9156006"
-					(reference "C35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 214.63 62.23 0)
 		(unit 1)
@@ -5129,83 +4998,6 @@
 			(project "spinor-r2a"
 				(path "/c8b2ce32-1e5b-45e4-8f0b-d70c39b97a8d/fc1e53d0-a8df-47e2-96b1-1922b9156006"
 					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 49.53 123.19 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4bf10e9e-bd11-407b-9424-30c23aec43d2")
-		(property "Reference" "L2"
-			(at 49.53 118.11 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FB/120R@100MHz"
-			(at 49.53 120.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "hn_lib:hn_R_0805"
-			(at 49.53 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 49.53 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "part" "Laird SiLaird HI0805O121R-10"
-			(at 49.53 123.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "da46e9ca-6a79-4158-a477-59a121676d99")
-		)
-		(pin "1"
-			(uuid "5d76905a-90e3-42e5-93c7-7b7ceb28c9a7")
-		)
-		(instances
-			(project "spinor-r2a"
-				(path "/c8b2ce32-1e5b-45e4-8f0b-d70c39b97a8d/fc1e53d0-a8df-47e2-96b1-1922b9156006"
-					(reference "L2")
 					(unit 1)
 				)
 			)
