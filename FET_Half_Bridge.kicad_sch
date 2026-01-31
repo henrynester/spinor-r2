@@ -1076,12 +1076,6 @@
 		(uuid "01811731-5762-4b53-8fc7-bf318608d005")
 	)
 	(junction
-		(at 179.07 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2427c8d7-b00b-493a-bbf0-b96a23221f8c")
-	)
-	(junction
 		(at 167.64 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1148,12 +1142,6 @@
 		(uuid "f56458bd-b22f-443f-855f-ef8330dd2373")
 	)
 	(junction
-		(at 179.07 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fd833469-6ea0-4234-abe6-6916b0d0d9be")
-	)
-	(junction
 		(at 104.14 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1208,16 +1196,6 @@
 			(type default)
 		)
 		(uuid "1bcaa5f0-40dc-47fa-bdd7-bfd9942c8bdf")
-	)
-	(wire
-		(pts
-			(xy 195.58 63.5) (xy 195.58 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28895475-8676-4cec-bcf5-24f9098eb5b5")
 	)
 	(wire
 		(pts
@@ -1411,16 +1389,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 71.12) (xy 195.58 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69bd7037-7b39-4493-a63a-f6b3038a912d")
-	)
-	(wire
-		(pts
 			(xy 166.37 82.55) (xy 166.37 60.96)
 		)
 		(stroke
@@ -1451,16 +1419,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 71.12) (xy 179.07 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c7906a9-beaa-4903-b010-bd3fe7abb5f1")
-	)
-	(wire
-		(pts
 			(xy 147.32 118.11) (xy 167.64 118.11)
 		)
 		(stroke
@@ -1468,26 +1426,6 @@
 			(type default)
 		)
 		(uuid "8ff81642-0ad0-41bb-a98d-f71ee172b24f")
-	)
-	(wire
-		(pts
-			(xy 179.07 73.66) (xy 195.58 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9af1ff28-e3f7-42d5-8c9a-78e9507d11fb")
-	)
-	(wire
-		(pts
-			(xy 179.07 76.2) (xy 179.07 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9bd5d4bd-2d18-46b6-baec-afaba9c28407")
 	)
 	(wire
 		(pts
@@ -1581,16 +1519,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 60.96) (xy 195.58 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb6fcf57-1601-468e-ac46-3a211cded388")
-	)
-	(wire
-		(pts
 			(xy 166.37 114.3) (xy 147.32 114.3)
 		)
 		(stroke
@@ -1608,16 +1536,6 @@
 			(type default)
 		)
 		(uuid "d411dfdb-94fe-4171-85a8-cae58c83f753")
-	)
-	(wire
-		(pts
-			(xy 179.07 63.5) (xy 179.07 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d882c95c-c23e-451f-bf7e-755a3131ae60")
 	)
 	(wire
 		(pts
@@ -1806,7 +1724,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2064a1b1-eb7d-4c6b-8f98-541fad0f449f")
-		(property "Reference" "C27"
+		(property "Reference" "C25"
 			(at 171.45 121.9199 0)
 			(effects
 				(font
@@ -1869,15 +1787,15 @@
 		(instances
 			(project "spinor-r2a"
 				(path "/c8b2ce32-1e5b-45e4-8f0b-d70c39b97a8d/8fe2ea39-ebd7-4daf-985d-a367b78cd187"
-					(reference "C27")
+					(reference "C25")
 					(unit 1)
 				)
 				(path "/c8b2ce32-1e5b-45e4-8f0b-d70c39b97a8d/a220d48a-69fc-41ce-bc6b-34f6bd72a7e3"
-					(reference "C31")
+					(reference "C27")
 					(unit 1)
 				)
 				(path "/c8b2ce32-1e5b-45e4-8f0b-d70c39b97a8d/dc9b52d6-60df-4069-b1a4-c5fd3170de54"
-					(reference "C35")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -2067,7 +1985,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44259f09-faf8-4cb7-8143-209144a2a15b")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR035"
 			(at 130.81 134.62 0)
 			(effects
 				(font
@@ -2116,15 +2034,15 @@
 		(instances
 			(project "spinor-r2a"
 				(path "/c8b2ce32-1e5b-45e4-8f0b-d70c39b97a8d/8fe2ea39-ebd7-4daf-985d-a367b78cd187"
-					(reference "#PWR036")
+					(reference "#PWR035")
 					(unit 1)
 				)
 				(path "/c8b2ce32-1e5b-45e4-8f0b-d70c39b97a8d/a220d48a-69fc-41ce-bc6b-34f6bd72a7e3"
-					(reference "#PWR039")
+					(reference "#PWR037")
 					(unit 1)
 				)
 				(path "/c8b2ce32-1e5b-45e4-8f0b-d70c39b97a8d/dc9b52d6-60df-4069-b1a4-c5fd3170de54"
-					(reference "#PWR042")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -2380,91 +2298,6 @@
 				)
 				(path "/c8b2ce32-1e5b-45e4-8f0b-d70c39b97a8d/dc9b52d6-60df-4069-b1a4-c5fd3170de54"
 					(reference "R27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 195.58 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "75467dba-94ac-49b7-805b-11c04cdbb10d")
-		(property "Reference" "C25"
-			(at 199.39 66.0399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7uF/50V"
-			(at 199.39 68.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "hn_lib:hn_C_1206"
-			(at 196.5452 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 195.58 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 195.58 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "part" "Murata GRM31CR71H475KA12L"
-			(at 195.58 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "55c265e5-c825-4799-a3d7-f17a3d77e016")
-		)
-		(pin "2"
-			(uuid "648b970d-61cb-4bba-b74a-e03784e4b458")
-		)
-		(instances
-			(project "spinor-r2a"
-				(path "/c8b2ce32-1e5b-45e4-8f0b-d70c39b97a8d/8fe2ea39-ebd7-4daf-985d-a367b78cd187"
-					(reference "C25")
-					(unit 1)
-				)
-				(path "/c8b2ce32-1e5b-45e4-8f0b-d70c39b97a8d/a220d48a-69fc-41ce-bc6b-34f6bd72a7e3"
-					(reference "C29")
-					(unit 1)
-				)
-				(path "/c8b2ce32-1e5b-45e4-8f0b-d70c39b97a8d/dc9b52d6-60df-4069-b1a4-c5fd3170de54"
-					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -2739,7 +2572,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cce2688f-40c9-4941-9adb-49fbadb397d4")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR036"
 			(at 147.32 134.62 0)
 			(effects
 				(font
@@ -2788,15 +2621,15 @@
 		(instances
 			(project "spinor-r2a"
 				(path "/c8b2ce32-1e5b-45e4-8f0b-d70c39b97a8d/8fe2ea39-ebd7-4daf-985d-a367b78cd187"
-					(reference "#PWR037")
+					(reference "#PWR036")
 					(unit 1)
 				)
 				(path "/c8b2ce32-1e5b-45e4-8f0b-d70c39b97a8d/a220d48a-69fc-41ce-bc6b-34f6bd72a7e3"
-					(reference "#PWR040")
+					(reference "#PWR038")
 					(unit 1)
 				)
 				(path "/c8b2ce32-1e5b-45e4-8f0b-d70c39b97a8d/dc9b52d6-60df-4069-b1a4-c5fd3170de54"
-					(reference "#PWR043")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -2812,7 +2645,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3b6a31e-00db-4f0e-87de-a2a16091964b")
-		(property "Reference" "C26"
+		(property "Reference" "C24"
 			(at 170.18 85.0899 0)
 			(effects
 				(font
@@ -2875,100 +2708,15 @@
 		(instances
 			(project "spinor-r2a"
 				(path "/c8b2ce32-1e5b-45e4-8f0b-d70c39b97a8d/8fe2ea39-ebd7-4daf-985d-a367b78cd187"
-					(reference "C26")
-					(unit 1)
-				)
-				(path "/c8b2ce32-1e5b-45e4-8f0b-d70c39b97a8d/a220d48a-69fc-41ce-bc6b-34f6bd72a7e3"
-					(reference "C30")
-					(unit 1)
-				)
-				(path "/c8b2ce32-1e5b-45e4-8f0b-d70c39b97a8d/dc9b52d6-60df-4069-b1a4-c5fd3170de54"
-					(reference "C34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 179.07 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "df872251-3a54-45a7-a93e-99d1096a97e3")
-		(property "Reference" "C24"
-			(at 182.88 66.0399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7uF/50V"
-			(at 182.88 68.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "hn_lib:hn_C_1206"
-			(at 180.0352 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 179.07 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 179.07 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "part" "Murata GRM31CR71H475KA12L"
-			(at 179.07 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a30b4f64-10e3-45a4-b8c0-30a35508bfe5")
-		)
-		(pin "2"
-			(uuid "be95ac38-7347-46c7-bc34-757c13fe9003")
-		)
-		(instances
-			(project "spinor-r2a"
-				(path "/c8b2ce32-1e5b-45e4-8f0b-d70c39b97a8d/8fe2ea39-ebd7-4daf-985d-a367b78cd187"
 					(reference "C24")
 					(unit 1)
 				)
 				(path "/c8b2ce32-1e5b-45e4-8f0b-d70c39b97a8d/a220d48a-69fc-41ce-bc6b-34f6bd72a7e3"
-					(reference "C28")
+					(reference "C26")
 					(unit 1)
 				)
 				(path "/c8b2ce32-1e5b-45e4-8f0b-d70c39b97a8d/dc9b52d6-60df-4069-b1a4-c5fd3170de54"
-					(reference "C32")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -3054,79 +2802,6 @@
 				)
 				(path "/c8b2ce32-1e5b-45e4-8f0b-d70c39b97a8d/dc9b52d6-60df-4069-b1a4-c5fd3170de54"
 					(reference "D11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 179.07 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fb1eb61a-76a1-4fee-93aa-8ecd03714835")
-		(property "Reference" "#PWR035"
-			(at 179.07 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 178.943 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 179.07 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 179.07 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 179.07 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "267f67ae-504c-4546-bc8a-705ede67dd8a")
-		)
-		(instances
-			(project "spinor-r2a"
-				(path "/c8b2ce32-1e5b-45e4-8f0b-d70c39b97a8d/8fe2ea39-ebd7-4daf-985d-a367b78cd187"
-					(reference "#PWR035")
-					(unit 1)
-				)
-				(path "/c8b2ce32-1e5b-45e4-8f0b-d70c39b97a8d/a220d48a-69fc-41ce-bc6b-34f6bd72a7e3"
-					(reference "#PWR038")
-					(unit 1)
-				)
-				(path "/c8b2ce32-1e5b-45e4-8f0b-d70c39b97a8d/dc9b52d6-60df-4069-b1a4-c5fd3170de54"
-					(reference "#PWR041")
 					(unit 1)
 				)
 			)
