@@ -4292,6 +4292,12 @@
 		(uuid "114c23e1-0670-4e23-b61d-d2e830bf865f")
 	)
 	(junction
+		(at 111.76 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13a967ab-b5f2-4826-a923-7d76a3ae4238")
+	)
+	(junction
 		(at 46.99 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4340,12 +4346,6 @@
 		(uuid "58df9576-4358-4319-b985-7ef77c5294e4")
 	)
 	(junction
-		(at 123.19 185.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5e1b64d4-2ce7-4718-bc77-80e9b3634405")
-	)
-	(junction
 		(at 34.29 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4356,12 +4356,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "692ed815-2c0e-42be-ac6a-cf4a48fe4182")
-	)
-	(junction
-		(at 123.19 173.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6a01dd5e-3c67-4f11-a01d-ae6ca4a73dbf")
 	)
 	(junction
 		(at 99.06 185.42)
@@ -4400,12 +4394,6 @@
 		(uuid "9dcedcbe-dee3-4ade-9b8a-5ce2d801d43b")
 	)
 	(junction
-		(at 238.76 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a009ef95-796c-462a-87af-6e070cfa10bf")
-	)
-	(junction
 		(at 46.99 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4442,7 +4430,7 @@
 		(uuid "d5272263-cf22-4fa9-9f56-9059a5bafab3")
 	)
 	(junction
-		(at 111.76 173.99)
+		(at 118.11 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d7e5ad77-3038-44e9-99e3-034826009df7")
@@ -4460,7 +4448,7 @@
 		(uuid "f0cd3940-6947-4664-b060-eb9ba7a1d426")
 	)
 	(junction
-		(at 111.76 185.42)
+		(at 118.11 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb851c31-8934-4155-b61e-166c83edcce4")
@@ -4653,16 +4641,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 184.15) (xy 123.19 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17576470-96e2-46de-b173-51ffa5eb4335")
-	)
-	(wire
-		(pts
 			(xy 115.57 31.75) (xy 115.57 43.18)
 		)
 		(stroke
@@ -4843,6 +4821,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 173.99) (xy 135.89 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "303905b4-b461-4f6e-9806-ab389b771586")
+	)
+	(wire
+		(pts
 			(xy 46.99 185.42) (xy 34.29 185.42)
 		)
 		(stroke
@@ -4880,16 +4868,6 @@
 			(type default)
 		)
 		(uuid "34ad0ab2-7567-4d54-9713-19a910d9c1ad")
-	)
-	(wire
-		(pts
-			(xy 255.27 111.76) (xy 238.76 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3675cf28-7ae4-450b-b9b5-2b10ed1f01c2")
 	)
 	(wire
 		(pts
@@ -5093,7 +5071,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 185.42) (xy 111.76 184.15)
+			(xy 118.11 185.42) (xy 118.11 184.15)
 		)
 		(stroke
 			(width 0)
@@ -5103,7 +5081,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 173.99) (xy 123.19 173.99)
+			(xy 111.76 173.99) (xy 118.11 173.99)
 		)
 		(stroke
 			(width 0)
@@ -5363,16 +5341,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 173.99) (xy 111.76 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a326497-f6e9-47cc-bc70-c3050c4cb534")
-	)
-	(wire
-		(pts
 			(xy 66.04 53.34) (xy 66.04 54.61)
 		)
 		(stroke
@@ -5443,7 +5411,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 176.53) (xy 111.76 173.99)
+			(xy 118.11 176.53) (xy 118.11 173.99)
 		)
 		(stroke
 			(width 0)
@@ -5533,7 +5501,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 185.42) (xy 111.76 185.42)
+			(xy 99.06 185.42) (xy 118.11 185.42)
 		)
 		(stroke
 			(width 0)
@@ -5813,16 +5781,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 185.42) (xy 111.76 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2d2e0b2-21e1-4660-aff4-09aa64af538f")
-	)
-	(wire
-		(pts
 			(xy 182.88 87.63) (xy 194.31 87.63)
 		)
 		(stroke
@@ -5853,16 +5811,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 176.53) (xy 123.19 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba7ee6d7-f752-4731-a3fa-833a682b970c")
-	)
-	(wire
-		(pts
 			(xy 25.4 90.17) (xy 35.56 90.17)
 		)
 		(stroke
@@ -5880,6 +5828,16 @@
 			(type default)
 		)
 		(uuid "bc984f7f-8a8a-4a6f-a895-7cdcb0e12097")
+	)
+	(wire
+		(pts
+			(xy 118.11 185.42) (xy 135.89 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be0d74ac-356b-48ac-85d7-12606943b3c3")
 	)
 	(wire
 		(pts
@@ -6113,16 +6071,6 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 115.57) (xy 255.27 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4cab4fc-bb76-4cba-a29c-58adaf259c00")
-	)
-	(wire
-		(pts
 			(xy 182.88 69.85) (xy 200.66 69.85)
 		)
 		(stroke
@@ -6150,16 +6098,6 @@
 			(type default)
 		)
 		(uuid "e5ac2b12-8add-46d9-99a4-47154e7854f1")
-	)
-	(wire
-		(pts
-			(xy 135.89 185.42) (xy 123.19 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea27895e-7e59-4c31-8146-d2007a797f35")
 	)
 	(wire
 		(pts
@@ -6250,16 +6188,6 @@
 			(type default)
 		)
 		(uuid "f41db0b5-0fa1-45c6-a485-a3cd866a5b56")
-	)
-	(wire
-		(pts
-			(xy 255.27 123.19) (xy 255.27 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa43e134-6846-4d80-b94a-6bd4b7af0450")
 	)
 	(wire
 		(pts
@@ -7399,85 +7327,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 123.19 180.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0ebdeb97-fe95-481c-9f70-22e722d4ef90")
-		(property "Reference" "C13"
-			(at 127 179.0699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF/6.3V"
-			(at 127 181.6099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "hn_lib:hn_C_0402"
-			(at 124.1552 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 123.19 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 123.19 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "part" "Murata GRM155R70J104KA01D"
-			(at 123.19 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7330875f-f1da-445d-ad2b-00a306e71782")
-		)
-		(pin "1"
-			(uuid "bbfdbe9c-f8d9-4935-b4ce-864e2691b92d")
-		)
-		(instances
-			(project "spinor-r2a"
-				(path "/c8b2ce32-1e5b-45e4-8f0b-d70c39b97a8d/7a6505cb-5d4b-46b8-92a2-882c1defdbef"
-					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 99.06 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7980,85 +7829,6 @@
 			(project "spinor-r2a"
 				(path "/c8b2ce32-1e5b-45e4-8f0b-d70c39b97a8d/7a6505cb-5d4b-46b8-92a2-882c1defdbef"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 255.27 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "32ee9b7d-8e0b-4b9f-99b3-75ec32ac832f")
-		(property "Reference" "C4"
-			(at 259.08 118.1099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF/6.3V"
-			(at 259.08 120.6499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "hn_lib:hn_C_0402"
-			(at 256.2352 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 255.27 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 255.27 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "part" "Murata GRM155R70J104KA01D"
-			(at 255.27 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5319ff6d-1c9e-43ad-835e-57c6aeed07cd")
-		)
-		(pin "1"
-			(uuid "f9c7b8c3-3559-4f86-8ca6-0a053fdf8fb8")
-		)
-		(instances
-			(project "spinor-r2a"
-				(path "/c8b2ce32-1e5b-45e4-8f0b-d70c39b97a8d/7a6505cb-5d4b-46b8-92a2-882c1defdbef"
-					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -8858,73 +8628,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_1")
-		(lib_id "power:GND")
-		(at 255.27 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "51d7d317-8254-47e0-8af9-37823442ae8e")
-		(property "Reference" "#PWR019"
-			(at 255.27 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 255.27 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 255.27 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 255.27 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 255.27 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1447fa94-553a-4e70-902e-29502e46be59")
-		)
-		(instances
-			(project "spinor-r2a"
-				(path "/c8b2ce32-1e5b-45e4-8f0b-d70c39b97a8d/7a6505cb-5d4b-46b8-92a2-882c1defdbef"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 35.56 38.1 270)
 		(unit 1)
@@ -9640,7 +9343,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 111.76 180.34 0)
+		(at 118.11 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9649,7 +9352,7 @@
 		(fields_autoplaced yes)
 		(uuid "6e2b7a00-596e-4828-bd9f-5579fbbdde7d")
 		(property "Reference" "C12"
-			(at 115.57 179.0699 0)
+			(at 121.92 179.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9658,7 +9361,7 @@
 			)
 		)
 		(property "Value" "1uF/6.3V"
-			(at 115.57 181.6099 0)
+			(at 121.92 181.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9667,7 +9370,7 @@
 			)
 		)
 		(property "Footprint" "hn_lib:hn_C_0402"
-			(at 112.7252 184.15 0)
+			(at 119.0752 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9676,7 +9379,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 111.76 180.34 0)
+			(at 118.11 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9685,7 +9388,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 111.76 180.34 0)
+			(at 118.11 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9694,7 +9397,7 @@
 			)
 		)
 		(property "part" "Murata GRM155R70J105KA12D"
-			(at 111.76 180.34 0)
+			(at 118.11 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
