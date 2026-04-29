@@ -63,16 +63,101 @@
           "width": 0.15
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|134355000|127187072|45e5b64d-1156-4e3c-ac15-c5203bd55b45|ad8c1d75-53fa-42d9-8f95-a1a3817f3892",
+          ""
+        ],
+        [
+          "courtyards_overlap|135045000|126005000|a8c97e26-7f31-4c8b-84c6-fee9f580a6bd|c1750f44-18ec-49b8-aab2-a361c5bf323b",
+          ""
+        ],
+        [
+          "courtyards_overlap|135435000|81905000|0318a387-5616-4798-a144-fb8d07ba13ab|ba5cd481-edad-485b-b0e7-c85d0f963437",
+          ""
+        ],
+        [
+          "courtyards_overlap|135765000|81905000|90abef93-cb8a-42d3-9ba3-8d313e3a0f41|ba5cd481-edad-485b-b0e7-c85d0f963437",
+          ""
+        ],
+        [
+          "courtyards_overlap|138035000|81905000|90abef93-cb8a-42d3-9ba3-8d313e3a0f41|960434f8-dc45-4da6-9c2c-89091690115e",
+          ""
+        ],
+        [
+          "courtyards_overlap|138365000|81905000|6c01c0dc-45c6-460e-a652-9bca844062b4|960434f8-dc45-4da6-9c2c-89091690115e",
+          ""
+        ],
+        [
+          "courtyards_overlap|140635000|81905000|6c01c0dc-45c6-460e-a652-9bca844062b4|8e25b160-74c7-4d30-a6c2-d2a3f8960f39",
+          ""
+        ],
+        [
+          "courtyards_overlap|140965000|81905000|70bb8e47-dfe0-4336-a5d2-a71e57042005|8e25b160-74c7-4d30-a6c2-d2a3f8960f39",
+          ""
+        ],
+        [
+          "courtyards_overlap|148645000|127730619|45e5b64d-1156-4e3c-ac15-c5203bd55b45|a06b050c-6ffa-4575-826a-dd162f4d3991",
+          ""
+        ],
+        [
+          "courtyards_overlap|149444300|134847700|0cd9c7ff-8057-4c3e-a258-dc07a3854854|e9d29ded-4f66-4106-b784-cf2f5d00041d",
+          ""
+        ],
+        [
+          "courtyards_overlap|150905000|134542900|c37163e3-8c30-4e5d-a8c0-8ce5564bb0b5|e9d29ded-4f66-4106-b784-cf2f5d00041d",
+          ""
+        ],
+        [
+          "courtyards_overlap|158835000|76805000|2ce8f6dc-3b6c-4099-b6e3-4b84ca690ae7|c90404d6-01ee-4203-bcbb-fc20331f25a7",
+          ""
+        ],
+        [
+          "courtyards_overlap|159065000|76805000|a31ea95f-389e-4a7f-9f42-74de56d8e4f8|c90404d6-01ee-4203-bcbb-fc20331f25a7",
+          ""
+        ],
+        [
+          "courtyards_overlap|163075000|80255000|6d178e1f-7cb6-49bc-b565-3b33766e8895|8b8aba1e-3cef-4dfa-81ba-c51de367af98",
+          ""
+        ],
+        [
+          "courtyards_overlap|163075000|81035000|1271bc77-e7b0-4941-b324-953a484c67d4|8b8aba1e-3cef-4dfa-81ba-c51de367af98",
+          ""
+        ],
+        [
+          "courtyards_overlap|163075000|81455000|1271bc77-e7b0-4941-b324-953a484c67d4|2ae4eaad-f3cf-4add-b1dd-039da2c67e4c",
+          ""
+        ],
+        [
+          "courtyards_overlap|163075000|83035000|2ae4eaad-f3cf-4add-b1dd-039da2c67e4c|f492b19f-88b1-4c33-bc4e-ce5ec5dcc73f",
+          ""
+        ],
+        [
+          "courtyards_overlap|163095000|82045000|2ae4eaad-f3cf-4add-b1dd-039da2c67e4c|414a4cb1-f0ff-4992-8ec1-d0b99272d812",
+          ""
+        ],
+        [
+          "courtyards_overlap|163095000|82045000|414a4cb1-f0ff-4992-8ec1-d0b99272d812|8b8aba1e-3cef-4dfa-81ba-c51de367af98",
+          ""
+        ],
+        [
+          "courtyards_overlap|163135000|81455000|2ae4eaad-f3cf-4add-b1dd-039da2c67e4c|8b8aba1e-3cef-4dfa-81ba-c51de367af98",
+          ""
+        ],
+        [
+          "courtyards_overlap|166290477|77244272|1451b4d3-90cd-40a5-b42b-660b19dc8291|94e4885a-67b8-4ea3-9dcc-06cbb03c7637",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
       "rule_severities": {
         "annular_width": "error",
         "clearance": "error",
-        "connection_width": "warning",
+        "connection_width": "error",
         "copper_edge_clearance": "error",
-        "copper_sliver": "warning",
+        "copper_sliver": "error",
         "courtyards_overlap": "error",
         "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
@@ -85,10 +170,10 @@
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
-        "hole_to_hole": "warning",
-        "holes_co_located": "warning",
+        "hole_to_hole": "error",
+        "holes_co_located": "error",
         "invalid_outline": "error",
-        "isolated_copper": "warning",
+        "isolated_copper": "error",
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
@@ -117,33 +202,33 @@
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_angle": "error",
-        "track_dangling": "warning",
+        "track_dangling": "error",
         "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
         "unconnected_items": "error",
         "unresolved_variable": "error",
-        "via_dangling": "warning",
+        "via_dangling": "error",
         "zones_intersect": "error"
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.1,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.2,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
-        "min_microvia_diameter": 0.2,
-        "min_microvia_drill": 0.1,
+        "min_hole_clearance": 0.2,
+        "min_hole_to_hole": 0.2,
+        "min_microvia_diameter": 0.0,
+        "min_microvia_drill": 0.0,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.8,
-        "min_text_thickness": 0.08,
+        "min_text_height": 1.0,
+        "min_text_thickness": 0.15,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
-        "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_track_width": 0.1,
+        "min_via_annular_width": 0.075,
+        "min_via_diameter": 0.45,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -237,7 +322,7 @@
           "drill": 0.3
         }
       ],
-      "zones_allow_external_fillets": false
+      "zones_allow_external_fillets": true
     },
     "ipc2581": {
       "dist": "",
@@ -515,7 +600,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "plots/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
