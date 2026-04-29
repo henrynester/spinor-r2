@@ -1186,7 +1186,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 181.61 91.44 0)
+		(at 181.61 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1195,7 +1195,7 @@
 		(fields_autoplaced yes)
 		(uuid "72f12e54-af8a-4c91-96e2-e2352aa19917")
 		(property "Reference" "R35"
-			(at 184.15 90.1699 0)
+			(at 184.15 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1204,7 +1204,7 @@
 			)
 		)
 		(property "Value" "10k NTC"
-			(at 184.15 92.7099 0)
+			(at 184.15 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1213,7 +1213,7 @@
 			)
 		)
 		(property "Footprint" "hn_lib:hn_R_0805"
-			(at 182.626 91.694 90)
+			(at 182.626 76.454 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1222,7 +1222,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 181.61 91.44 0)
+			(at 181.61 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1231,7 +1231,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 181.61 91.44 0)
+			(at 181.61 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1240,7 +1240,7 @@
 			)
 		)
 		(property "part" "Murata NCP21XV103J03RA"
-			(at 181.61 91.44 0)
+			(at 181.61 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1265,7 +1265,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 181.61 76.2 0)
+		(at 181.61 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1274,7 +1274,7 @@
 		(fields_autoplaced yes)
 		(uuid "7a7e525d-95f0-49f4-80c7-8e1c85693374")
 		(property "Reference" "R33"
-			(at 184.15 74.9299 0)
+			(at 184.15 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1283,7 +1283,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 184.15 77.4699 0)
+			(at 184.15 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1292,7 +1292,7 @@
 			)
 		)
 		(property "Footprint" "hn_lib:hn_R_0402"
-			(at 182.626 76.454 90)
+			(at 182.626 91.694 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1301,7 +1301,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 181.61 76.2 0)
+			(at 181.61 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1310,7 +1310,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 181.61 76.2 0)
+			(at 181.61 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1318,7 +1318,7 @@
 			)
 		)
 		(property "part" "YAGEO RC0402JR-074K7L"
-			(at 181.61 76.2 90)
+			(at 181.61 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -424,131 +424,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "VDDA_1"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VDDA"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VDDA\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VDDA_1_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VDDA_1_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "VDD_1"
 			(power)
 			(pin_numbers
@@ -1810,6 +1685,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:VDD"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VDD"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VDD\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VDD_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VDD_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "SDO is open drain and fast, needs a pullup resistor\n1k per DS ref design\nnFAULT is also open drain but we can use MCU pullup ~100k since it's slower"
 		(exclude_from_sim no)
@@ -1854,12 +1854,6 @@
 		(uuid "11dde8bc-ad88-421a-8843-868ccbaef6a3")
 	)
 	(junction
-		(at 222.25 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1744b863-b77b-4b7d-9679-825ce5ec683f")
-	)
-	(junction
 		(at 115.57 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1876,12 +1870,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4bb4265d-3ad5-426d-a4dd-f5599cdc079f")
-	)
-	(junction
-		(at 214.63 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "512b52ae-b7b1-4bf5-87ca-5d5b1680a49a")
 	)
 	(junction
 		(at 187.96 107.95)
@@ -2118,16 +2106,6 @@
 			(type default)
 		)
 		(uuid "1d32f19b-be48-438c-a9ce-53bb13c40396")
-	)
-	(wire
-		(pts
-			(xy 214.63 100.33) (xy 214.63 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f75a5d0-a5f4-4662-ab74-6dd626cfb0d8")
 	)
 	(wire
 		(pts
@@ -2561,16 +2539,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 102.87) (xy 222.25 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "807a007f-c9b2-49f7-92a8-7b920c6fb3c5")
-	)
-	(wire
-		(pts
 			(xy 259.08 59.69) (xy 259.08 62.23)
 		)
 		(stroke
@@ -2621,16 +2589,6 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 102.87) (xy 222.25 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "926b1a88-47f1-44d0-b8d6-c6dcb27f1b97")
-	)
-	(wire
-		(pts
 			(xy 101.6 69.85) (xy 101.6 72.39)
 		)
 		(stroke
@@ -2641,7 +2599,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 102.87) (xy 214.63 106.68)
+			(xy 214.63 100.33) (xy 214.63 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2658,16 +2616,6 @@
 			(type default)
 		)
 		(uuid "99414a6c-97c0-4d83-9a44-43a202e1f41e")
-	)
-	(wire
-		(pts
-			(xy 168.91 118.11) (xy 222.25 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9afec161-4ee2-49cc-888f-0b716243449b")
 	)
 	(wire
 		(pts
@@ -2951,23 +2899,13 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 118.11) (xy 226.06 118.11)
+			(xy 168.91 118.11) (xy 226.06 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e0bc0c33-fce0-4d09-af7d-f23ce6394a63")
-	)
-	(wire
-		(pts
-			(xy 222.25 114.3) (xy 222.25 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7ce71c8-a8f6-42e3-b470-be6d4a4715ad")
 	)
 	(wire
 		(pts
@@ -3745,73 +3683,6 @@
 		)
 	)
 	(symbol
-		(lib_name "VDDA_1")
-		(lib_id "power:VDDA")
-		(at 259.08 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "136b7d12-037f-4647-b2ca-2d395499e32e")
-		(property "Reference" "#PWR025"
-			(at 259.08 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDDA"
-			(at 259.08 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 259.08 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 259.08 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDDA\""
-			(at 259.08 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "95acab91-6042-41f6-b3b2-9a265cd875f3")
-		)
-		(instances
-			(project "spinor-r2a"
-				(path "/c8b2ce32-1e5b-45e4-8f0b-d70c39b97a8d/2b0fe729-da76-46c1-bad7-bdb33a257410"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDPWR")
 		(at 55.88 71.12 0)
 		(unit 1)
@@ -4330,6 +4201,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDD")
+		(at 259.08 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d516f50-b1af-4a68-9d1c-08cfa0ca0992")
+		(property "Reference" "#PWR013"
+			(at 259.08 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 259.08 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 259.08 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c52fbd1b-9eda-4b7d-b9c7-b8961b051f8b")
+		)
+		(instances
+			(project ""
+				(path "/c8b2ce32-1e5b-45e4-8f0b-d70c39b97a8d/2b0fe729-da76-46c1-bad7-bdb33a257410"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 214.63 110.49 0)
 		(unit 1)
@@ -4481,84 +4418,6 @@
 			(project "spinor-r2a"
 				(path "/c8b2ce32-1e5b-45e4-8f0b-d70c39b97a8d/2b0fe729-da76-46c1-bad7-bdb33a257410"
 					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 222.25 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "653be9b0-5786-484e-bf5c-c88c68b1d742")
-		(property "Reference" "R18"
-			(at 224.79 109.2199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 224.79 111.7599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "hn_lib:hn_R_0402"
-			(at 223.266 110.744 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 222.25 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 222.25 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "part" "YAGEO RC0402JR-074K7L"
-			(at 222.25 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f28396ac-06fb-42ae-9f35-e2840d526b7c")
-		)
-		(pin "2"
-			(uuid "f3805499-3715-4022-9173-e0b0fead2111")
-		)
-		(instances
-			(project "spinor-r2a"
-				(path "/c8b2ce32-1e5b-45e4-8f0b-d70c39b97a8d/2b0fe729-da76-46c1-bad7-bdb33a257410"
-					(reference "R18")
 					(unit 1)
 				)
 			)
