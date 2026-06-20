@@ -1,0 +1,6 @@
+[submodule "fw/build/cunit"]
+	path = fw/build/cunit
+	url = http://gitlab.com/cunity/cunit
+[submodule "external/cunit"]
+	path = external/cunit
+	url = http://gitlab.com/cunity/cunit
