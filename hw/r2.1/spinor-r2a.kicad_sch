@@ -1,0 +1,1628 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "c8b2ce32-1e5b-45e4-8f0b-d70c39b97a8d")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "RC0402JR-070RL\n0402 0-ohm jumper part"
+		(exclude_from_sim no)
+		(at 63.754 178.054 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9d77e4cc-99e7-4a91-97ae-0f1b1f42472e")
+	)
+	(wire
+		(pts
+			(xy 185.42 78.74) (xy 207.01 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01b20f63-bc32-4960-aae1-e98d1b3fc2c4")
+	)
+	(wire
+		(pts
+			(xy 185.42 121.92) (xy 207.01 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "046b8fc9-e5d5-46f9-8000-179c9fc0eb18")
+	)
+	(wire
+		(pts
+			(xy 139.7 107.95) (xy 151.13 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1257960e-ec71-49ec-b894-3b0b998b968b")
+	)
+	(wire
+		(pts
+			(xy 139.7 90.17) (xy 151.13 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23308bd1-2cef-4d03-833a-9780df2c6947")
+	)
+	(wire
+		(pts
+			(xy 139.7 97.79) (xy 151.13 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26326237-26a5-4343-993e-95ce7db7af88")
+	)
+	(wire
+		(pts
+			(xy 139.7 81.28) (xy 151.13 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bc80ce0-4561-454d-96fd-55806e3dc096")
+	)
+	(wire
+		(pts
+			(xy 185.42 68.58) (xy 207.01 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3716ec62-9d70-47f1-973e-631d09c96cd4")
+	)
+	(wire
+		(pts
+			(xy 139.7 83.82) (xy 151.13 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42c677ee-3af2-48ed-b190-d25ec0cad589")
+	)
+	(wire
+		(pts
+			(xy 185.42 90.17) (xy 207.01 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "459148f3-0080-4c80-b660-18c6e50a2437")
+	)
+	(wire
+		(pts
+			(xy 139.7 86.36) (xy 151.13 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e979903-c20c-46b5-b38e-192b869c3f93")
+	)
+	(wire
+		(pts
+			(xy 185.42 111.76) (xy 207.01 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54cdbda6-fa69-44c6-af06-d09277bae549")
+	)
+	(wire
+		(pts
+			(xy 139.7 76.2) (xy 151.13 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58db8b17-6484-4e6e-9883-e3e98b3257e3")
+	)
+	(wire
+		(pts
+			(xy 185.42 100.33) (xy 207.01 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fd47895-2a56-4e6a-9771-efbded7a5834")
+	)
+	(wire
+		(pts
+			(xy 139.7 110.49) (xy 151.13 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "882dd133-d6e0-433b-9e0a-73d6d749c00d")
+	)
+	(wire
+		(pts
+			(xy 139.7 73.66) (xy 151.13 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d7cf446-029d-4228-a73e-2e9e230b8abd")
+	)
+	(wire
+		(pts
+			(xy 73.66 77.47) (xy 90.17 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94d391a9-0294-4f40-9f50-850b9151a340")
+	)
+	(wire
+		(pts
+			(xy 139.7 92.71) (xy 151.13 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9534e89f-d85d-44af-ab86-dbaf80f5feb9")
+	)
+	(wire
+		(pts
+			(xy 185.42 73.66) (xy 207.01 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96f328c9-a97b-49ff-a2bd-ab1a029211e7")
+	)
+	(wire
+		(pts
+			(xy 73.66 96.52) (xy 90.17 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98c03e9e-c1be-4f52-8746-cc519b8241b5")
+	)
+	(wire
+		(pts
+			(xy 185.42 97.79) (xy 207.01 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a97243f-f162-40e3-8ae5-217129f705ca")
+	)
+	(wire
+		(pts
+			(xy 185.42 119.38) (xy 207.01 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c91ca25-7217-4eaa-b0ad-48558990bb1f")
+	)
+	(wire
+		(pts
+			(xy 185.42 76.2) (xy 207.01 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d0e43d1-fea4-4e7e-9578-3b279da58a76")
+	)
+	(wire
+		(pts
+			(xy 139.7 95.25) (xy 151.13 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c254f60f-b815-4ef5-89fb-4ffad725765c")
+	)
+	(wire
+		(pts
+			(xy 73.66 74.93) (xy 90.17 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ced2ecbd-3dfc-4a46-93aa-4986a888dc0e")
+	)
+	(wire
+		(pts
+			(xy 185.42 71.12) (xy 207.01 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0400b39-1639-41c4-bf7c-668abbe7a679")
+	)
+	(wire
+		(pts
+			(xy 185.42 114.3) (xy 207.01 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc66bc83-3a1b-47f3-8eea-e05bb81cd3cd")
+	)
+	(wire
+		(pts
+			(xy 185.42 95.25) (xy 207.01 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1852f5c-1b6d-49d7-9aa6-0cd3769e75da")
+	)
+	(wire
+		(pts
+			(xy 185.42 116.84) (xy 207.01 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebb7edc2-c28c-4ba6-88fd-96cf5ede1ee3")
+	)
+	(wire
+		(pts
+			(xy 139.7 71.12) (xy 151.13 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f15c5a8d-5aa3-4009-b4f6-c04fdf1397b5")
+	)
+	(wire
+		(pts
+			(xy 139.7 105.41) (xy 151.13 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb79cc51-8edf-44d0-a227-65ca5d4fb292")
+	)
+	(wire
+		(pts
+			(xy 185.42 92.71) (xy 207.01 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff4223e0-dd2c-4ab3-b4c8-8f0410fadba3")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 22.86 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f3749f0-eaeb-4b2b-9fdb-141162ba59c7")
+		(property "Reference" "H3"
+			(at 25.4 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3"
+			(at 25.4 184.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 22.86 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 22.86 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 22.86 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part" ""
+			(at 22.86 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "spinor-r2a"
+				(path "/c8b2ce32-1e5b-45e4-8f0b-d70c39b97a8d"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 22.86 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45dcaa50-5456-4fa7-b464-d812ef4ead10")
+		(property "Reference" "H1"
+			(at 25.4 172.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3"
+			(at 25.4 175.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 22.86 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 22.86 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 22.86 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part" ""
+			(at 22.86 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "spinor-r2a"
+				(path "/c8b2ce32-1e5b-45e4-8f0b-d70c39b97a8d"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 33.02 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "824ef5b7-5311-4714-a552-becdb06be33c")
+		(property "Reference" "H2"
+			(at 35.56 172.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3"
+			(at 35.56 175.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 33.02 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 33.02 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part" ""
+			(at 33.02 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "spinor-r2a"
+				(path "/c8b2ce32-1e5b-45e4-8f0b-d70c39b97a8d"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 33.02 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d876c7c3-df93-4ecf-b050-4ce2973e3a41")
+		(property "Reference" "H4"
+			(at 35.56 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3"
+			(at 35.56 184.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 33.02 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 33.02 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part" ""
+			(at 33.02 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "spinor-r2a"
+				(path "/c8b2ce32-1e5b-45e4-8f0b-d70c39b97a8d"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.8 68.58)
+		(size 22.86 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "178e97e8-5a17-4ecc-b78e-a0f8597739a5")
+		(property "Sheetname" "Thermistors"
+			(at 50.8 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Thermistors.kicad_sch"
+			(at 50.8 83.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "NTC_FET" input
+			(at 73.66 74.93 0)
+			(uuid "341a8232-f3db-465a-a1a3-913a5e9537c4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC_MOTOR" input
+			(at 73.66 77.47 0)
+			(uuid "f0e23c03-b7ed-4431-a7d2-9aa4b9b380b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "spinor-r2a"
+				(path "/c8b2ce32-1e5b-45e4-8f0b-d70c39b97a8d"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 151.13 66.04)
+		(size 34.29 58.42)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2b0fe729-da76-46c1-bad7-bdb33a257410")
+		(property "Sheetname" "Integrated_FET_Driver"
+			(at 151.13 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Integrated_FET_Driver.kicad_sch"
+			(at 151.13 125.0446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ENABLE" input
+			(at 151.13 71.12 180)
+			(uuid "e478997a-6775-4a85-b42c-fa829317a0da")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GHA" input
+			(at 185.42 68.58 0)
+			(uuid "0eaa9b30-c7c3-4d82-bacc-73e64c2453ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GHB" input
+			(at 185.42 90.17 0)
+			(uuid "a251af7e-b096-40bd-9c5a-d269ce4279bd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GHC" input
+			(at 185.42 111.76 0)
+			(uuid "16f501a2-37f9-463c-b61e-c4a6d3bc11a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GLA" input
+			(at 185.42 73.66 0)
+			(uuid "66bf76ca-d3de-4395-b552-b4aa2d16b74f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GLB" input
+			(at 185.42 95.25 0)
+			(uuid "ca586837-3a55-4dc9-91ad-069bc6834f67")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GLC" input
+			(at 185.42 116.84 0)
+			(uuid "53fefb82-2b6d-4e35-b2ef-b6377dac9f4f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IA" input
+			(at 151.13 105.41 180)
+			(uuid "8191cc50-8b64-4771-9e11-f49331786448")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IB" input
+			(at 151.13 107.95 180)
+			(uuid "277bc98c-6eb9-4d41-ab66-ba175a68ac28")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IC" input
+			(at 151.13 110.49 180)
+			(uuid "091fde75-d229-4267-aa84-91dbf17401dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INHA" input
+			(at 151.13 81.28 180)
+			(uuid "e102f15a-e05f-44d1-9370-51e247d81d2f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INHB" input
+			(at 151.13 83.82 180)
+			(uuid "56854eb3-9663-46fb-934b-2a57940efc5d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INHC" input
+			(at 151.13 86.36 180)
+			(uuid "e65a0abc-d1f6-4b44-a937-7e320295764c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MISO" input
+			(at 151.13 95.25 180)
+			(uuid "7bd38d46-6a92-4af2-bcc6-a272fade6589")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOSI" input
+			(at 151.13 97.79 180)
+			(uuid "7a1dbc18-3917-4a00-be84-2ccedd61eec0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NFAULT" input
+			(at 151.13 73.66 180)
+			(uuid "ad044e42-e121-4f3a-b83a-0407e427da12")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NSS" input
+			(at 151.13 90.17 180)
+			(uuid "4752985e-5146-4de0-b69a-0f0387215015")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCK" input
+			(at 151.13 92.71 180)
+			(uuid "f3b2a36b-bd6d-4297-9d94-2b79982cfb1c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SHA" input
+			(at 185.42 71.12 0)
+			(uuid "b5b999d4-e814-4878-9ab7-c5d431c46950")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SHB" input
+			(at 185.42 92.71 0)
+			(uuid "f48e8ddb-e3e8-452b-8d0f-1df1d25f3dda")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SHC" input
+			(at 185.42 114.3 0)
+			(uuid "008b5480-869f-428a-9910-6b6cf9b40874")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SNA" input
+			(at 185.42 78.74 0)
+			(uuid "000c46e1-1602-4cd6-884b-57afcc752476")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SNB" input
+			(at 185.42 100.33 0)
+			(uuid "c209fc2e-ea4e-4f1a-a1da-89094e56c45b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SNC" input
+			(at 185.42 121.92 0)
+			(uuid "2e9ecd8a-c3aa-4588-a285-2ddee57eab37")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPA" input
+			(at 185.42 76.2 0)
+			(uuid "d58b84b6-a81e-4b46-b8b1-c99b451d4b75")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPB" input
+			(at 185.42 97.79 0)
+			(uuid "2feb4294-da8f-45ef-9b29-3620caf5b998")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPC" input
+			(at 185.42 119.38 0)
+			(uuid "96bfa784-12c5-48ed-a7ac-34157661f699")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HIZ" input
+			(at 151.13 76.2 180)
+			(uuid "d95c08ed-8b1f-4e4b-b129-4991a70b3e81")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "spinor-r2a"
+				(path "/c8b2ce32-1e5b-45e4-8f0b-d70c39b97a8d"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 90.17 66.04)
+		(size 49.53 58.42)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7a6505cb-5d4b-46b8-92a2-882c1defdbef")
+		(property "Sheetname" "Microcontroller"
+			(at 90.17 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Microcontroller.kicad_sch"
+			(at 90.17 125.0446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DRV_EN" input
+			(at 139.7 71.12 0)
+			(uuid "5159d39d-6077-4374-b178-b1372ea590ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DRV_IA" input
+			(at 139.7 105.41 0)
+			(uuid "443e8494-f854-466b-a560-69a97c292d59")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DRV_IB" input
+			(at 139.7 107.95 0)
+			(uuid "cb2fcdd1-937c-45a2-a6cd-ec0b25935bdd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DRV_IC" input
+			(at 139.7 110.49 0)
+			(uuid "957fcf82-c5c8-4bb5-bd6d-bb3c1152db00")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DRV_INHA" input
+			(at 139.7 81.28 0)
+			(uuid "1b1ad1e2-117f-452c-972a-8a33605f2b4a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DRV_INHB" input
+			(at 139.7 83.82 0)
+			(uuid "df46a698-302a-406e-8d58-a10fc6c3e109")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DRV_INHC" input
+			(at 139.7 86.36 0)
+			(uuid "04a97e97-d6fb-4c3c-957d-14faecbced94")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DRV_MISO" input
+			(at 139.7 95.25 0)
+			(uuid "2230e8c5-3074-41a1-972f-d873158e0c4e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DRV_MOSI" input
+			(at 139.7 97.79 0)
+			(uuid "d2dc90ab-75d5-44ac-8ea1-77bf3a7ec5ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DRV_NFAULT" input
+			(at 139.7 73.66 0)
+			(uuid "76f5dd35-a3de-4b33-b9f7-d7d9d191254f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DRV_NSS" input
+			(at 139.7 90.17 0)
+			(uuid "e93d6f45-b9f5-473e-9528-0c2453511700")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DRV_SCK" input
+			(at 139.7 92.71 0)
+			(uuid "2b413c81-24ee-4518-9485-1ae99d1fcef9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC_FET" input
+			(at 90.17 74.93 180)
+			(uuid "cb2b9d80-70d3-4f2d-ab54-ce1b32fd29d5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NTC_MTR" input
+			(at 90.17 77.47 180)
+			(uuid "f56cd8ba-3652-4406-8ce1-72eafc0914ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBUS_SENSE" input
+			(at 90.17 96.52 180)
+			(uuid "facedb75-0966-4647-8045-8e92d00caefe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DRV_HIZ" input
+			(at 139.7 76.2 0)
+			(uuid "3d690204-ae87-43f2-8737-fce44409b7dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "spinor-r2a"
+				(path "/c8b2ce32-1e5b-45e4-8f0b-d70c39b97a8d"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 207.01 66.04)
+		(size 34.29 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8fe2ea39-ebd7-4daf-985d-a367b78cd187")
+		(property "Sheetname" "FET_Half_Bridge_A"
+			(at 207.01 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FET_Half_Bridge.kicad_sch"
+			(at 207.01 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GATE_H" input
+			(at 207.01 68.58 180)
+			(uuid "df0c2edd-51b9-45b0-8244-2545fa6ddb09")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GATE_L" input
+			(at 207.01 73.66 180)
+			(uuid "b3348ea6-17fd-459f-a55d-cc808c96c2f5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SRC" input
+			(at 207.01 71.12 180)
+			(uuid "5002a372-05c9-4de4-9a61-fbb495256a8a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SHUNT_P" input
+			(at 207.01 76.2 180)
+			(uuid "a7b3fda5-1f1c-4b33-86e0-f53981f8fcb0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SHUNT_N" input
+			(at 207.01 78.74 180)
+			(uuid "c2ca42d8-5169-495d-a35c-76dcedb8a6af")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "spinor-r2a"
+				(path "/c8b2ce32-1e5b-45e4-8f0b-d70c39b97a8d"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 207.01 87.63)
+		(size 34.29 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a220d48a-69fc-41ce-bc6b-34f6bd72a7e3")
+		(property "Sheetname" "FET_Half_Bridge_B"
+			(at 207.01 86.9184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FET_Half_Bridge.kicad_sch"
+			(at 207.01 103.4546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GATE_H" input
+			(at 207.01 90.17 180)
+			(uuid "09f4234c-8a31-4732-b90d-ce7a35ed17a0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GATE_L" input
+			(at 207.01 95.25 180)
+			(uuid "dfd463b7-ebf6-42d9-aae8-c88fe4bebf8c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SRC" input
+			(at 207.01 92.71 180)
+			(uuid "6c5126d3-adc5-4d38-97ad-8a1a0733ac30")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SHUNT_P" input
+			(at 207.01 97.79 180)
+			(uuid "57efe3fd-0ad2-4d19-a68a-9ee4abfd48d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SHUNT_N" input
+			(at 207.01 100.33 180)
+			(uuid "a06df5f1-8962-4cb5-845e-bd5354c9de90")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "spinor-r2a"
+				(path "/c8b2ce32-1e5b-45e4-8f0b-d70c39b97a8d"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 207.01 109.22)
+		(size 34.29 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dc9b52d6-60df-4069-b1a4-c5fd3170de54")
+		(property "Sheetname" "FET_Half_Bridge_C"
+			(at 207.01 108.5084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FET_Half_Bridge.kicad_sch"
+			(at 207.01 125.0446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GATE_H" input
+			(at 207.01 111.76 180)
+			(uuid "dd34e44f-1d84-4c9e-97df-88cec5fcd9b4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GATE_L" input
+			(at 207.01 116.84 180)
+			(uuid "7cb5a9dc-e6d6-4f99-b823-3965f74137fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SRC" input
+			(at 207.01 114.3 180)
+			(uuid "7ef2c4ba-5bae-46ee-aed3-8c237741ac8f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SHUNT_P" input
+			(at 207.01 119.38 180)
+			(uuid "b8884bae-4aef-4ab9-8d67-74734d34e007")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SHUNT_N" input
+			(at 207.01 121.92 180)
+			(uuid "0127b6ea-3e41-4195-bcae-70b859ce18c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "spinor-r2a"
+				(path "/c8b2ce32-1e5b-45e4-8f0b-d70c39b97a8d"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.8 90.17)
+		(size 22.86 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fc1e53d0-a8df-47e2-96b1-1922b9156006")
+		(property "Sheetname" "Power_Supply"
+			(at 50.8 89.4584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_Supply.kicad_sch"
+			(at 50.8 103.4546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 50.8 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "VBUS_SENSE" input
+			(at 73.66 96.52 0)
+			(uuid "149e99ee-5184-46c5-b614-3b305f1f6cee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "spinor-r2a"
+				(path "/c8b2ce32-1e5b-45e4-8f0b-d70c39b97a8d"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
